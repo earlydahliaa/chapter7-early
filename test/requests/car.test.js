@@ -16,7 +16,7 @@ describe("test handleGetCar", () => {
 describe("test handleCreateCar", () => {
   it("return 201 OK", async () => {
     const accessToken = await request(app).post("/v1/auth/login").send({
-      email: "audima31@gmail.com",
+      email: "earlydahlianl@gmail.com",
       password: "123",
     });
 
